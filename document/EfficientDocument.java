@@ -4,7 +4,7 @@ import java.util.List;
 
 /** 
  * A class that represents a text document
- * It does one pass through the document to count the number of syllables, words, 
+ * It does one pass through the document to count the number of syllables, words,
  * and sentences and then stores those values.
  *
  */
@@ -85,7 +85,7 @@ public class EfficientDocument extends Document {
 	 * Get the number of words in the document.
 	 * A "word" is defined as a contiguous string of alphabetic characters
 	 * i.e. any upper or lower case characters a-z or A-Z.  This method completely 
-	 * ignores numbers when you count words, and assumes that the document does not have 
+	 * ignores numbers when you count words, and assumes that the document does not have
 	 * any strings that combine numbers and letters. 
 	 *
 	 * This method does NOT process the whole text each time it is called.  
@@ -100,7 +100,7 @@ public class EfficientDocument extends Document {
 
 
 	/**
-	 * Get the total number of syllables in the document (the stored text). 
+	 * Get the total number of syllables in the document (the stored text).
 	 * To calculate the the number of syllables in a word, it uses the following rules:
 	 *       Each contiguous sequence of one or more vowels is a syllable, 
 	 *       with the following exception: a lone "e" at the end of a word 

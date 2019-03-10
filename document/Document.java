@@ -20,11 +20,11 @@ public abstract class Document {
 		this.text = text;
 	}
 	
-	/** Returns the tokens that match the regex pattern from the document 
+	/** Returns the tokens that match the regex pattern from the document
 	 * text string.
 	 * @param pattern A regular expression string specifying the 
 	 *   token pattern desired
-	 * @return A List of tokens from the document text that match the regex 
+	 * @return A List of tokens from the document text that match the regex
 	 *   pattern
 	 */
 	protected List<String> getTokens(String pattern)
